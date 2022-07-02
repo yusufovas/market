@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah",
+        "branchId": 1,
+        "position": "manager"
+    },
+    {
+        "id": 2,
+        "branchId": 3,
+        "name": "Michael",
+        "position": "cashier"
+    },
+    {
+        "id": 3,
+        "branchId": 1,
+        "name": "Fred",
+        "position": "designer"
+    },
+    {
+        "id": 4,
+        "branchId": 1,
+        "name": "Ann",
+        "position": "cashier"
+    },
+    {
+        "id": 5,
+        "branchId": 5,
+        "name": "Alice",
+        "position": "assistant"
+    },
+    {
+        "name": "Kate",
+        "branchId": 2,
+        "position": "cashier",
+        "id": 6
+    }
+]

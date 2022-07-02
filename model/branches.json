@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "marketId": 1,
+        "name": "Makro",
+        "adress": "Yunusobod"
+    },
+    {
+        "id": 2,
+        "marketId": 2,
+        "name": "Korzinka",
+        "adress": "Mirobod"
+    },
+    {
+        "id": 3,
+        "marketId": 3,
+        "name": "Havas",
+        "adress": "Yashnobod"
+    }
+]

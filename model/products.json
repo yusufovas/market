@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "cola",
+        "branchId": 1,
+        "count": 2000,
+        "price": 5000
+    },
+    {
+        "id": 2,
+        "name": "fanta",
+        "branchId": 2,
+        "count": 2000,
+        "price": 5000
+    },
+    {
+        "id": 3,
+        "name": "sprite",
+        "branchId": 3,
+        "count": 2000,
+        "price": 5000
+    },
+    {
+        "id": 4,
+        "name": "lemon",
+        "branchId": 1,
+        "count": 2000,
+        "price": 5000
+    }
+]

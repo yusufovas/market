@@ -1,0 +1,88 @@
+File structure -->
+    -->model 
+        --> markets.json
+            branches.json
+            workers.json
+            products.json
+    --> utils
+        --> request.js //class handling all requests (GET, POST, 
+            PUT, DELETE)
+            fs.js
+            controller.js // an object that stores the 
+            controller part of main function
+
+    --> server.js
+
+----------------------------------------------------------------------
+
+JSON Files Content --> 
+
+    markets.json --> id
+                     name
+    
+    branches.json --> id
+                      marketId
+                      name
+                      adress
+    
+    workers.json --> id
+                     branchId
+                     name
+                     position
+    
+    products.json --> id
+                      branchId
+                      name
+                      price
+                      count
+
+----------------------------------------------------------------------
+
+
+Requests
+
+markets --> GET, POST, PUT, DELETE
+branches --> GET, POST, PUT, DELETE
+workers --> GET, POST, PUT, DELETE
+products --> GET, POST, PUT, DELETE
+
+
+Markets --> GET 
+                /markets --> read markets.json 
+                /markets/1 --> 
+                {
+                    id 
+                    name
+                    branches: [
+                       {
+                         id
+                         name
+                         adress
+                        workers : [
+                           {
+                             id
+                             name
+                             position
+                           }
+                        ]
+                        products : [
+                            {
+                                id
+                                name
+                                price
+                                count
+                            }
+                        ]
+                       }
+                    ]
+                }
+
+
+Branches --> GET 
+                /branches/1 --> return branch with the given id
+
+Workers --> GET 
+                /workers/1 --> return the workers of branch with the given id
+
+Product --> GET 
+                /products/1 --> return the products of branch with the given id
